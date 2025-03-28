@@ -1,25 +1,30 @@
-Q-Mesh
+# Q-Mesh
+
 A distributed quantum random number generator network providing high-entropy seeds across enterprise systems.
 
-Overview
+## Overview
+
 Q-Mesh creates a resilient mesh network of quantum random number generators (QRNGs) that work together to distribute high-quality entropy throughout your infrastructure. By leveraging quantum physics for true randomness, Q-Mesh ensures your cryptographic operations have the strongest possible foundation.
 
-Features
-Distributed QRNG network architecture
-High-throughput entropy distribution
-Fault-tolerant design with automatic failover
-EntropyWave technology integration
-Real-time entropy quality monitoring
-Flexible API for integration with existing systems
-Support for multiple quantum entropy sources
-Requirements
-Go 1.20 or higher
-EntropyWave QRNG device or compatible hardware
-Network connectivity between nodes
-Installation
-bash
+## Features
 
-Hide
+- Distributed QRNG network architecture
+- High-throughput entropy distribution
+- Fault-tolerant design with automatic failover
+- EntropyWave technology integration
+- Real-time entropy quality monitoring
+- Flexible API for integration with existing systems
+- Support for multiple quantum entropy sources
+
+## Requirements
+
+- Go 1.20 or higher
+- EntropyWave QRNG device or compatible hardware
+- Network connectivity between nodes
+
+## Installation
+
+```bash
 git clone https://github.com/constanza/q-mesh.git
 cd q-mesh
 go build
